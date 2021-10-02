@@ -1,4 +1,4 @@
-class ArrayPerfectSquare{
+class ArrayPerfetSquare{
     static void CountSquares(int arr[], int N)
     {
         int count=0; 
@@ -9,7 +9,9 @@ class ArrayPerfectSquare{
             {
                 if(arr[j]==square)
                 {
+                    System.out.println(arr[j]);
                     count=count+1;
+                    
                 }
             }
         }
